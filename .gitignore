@@ -1,0 +1,16 @@
+# ROS 2 & Colcon
+build/
+install/
+log/
+
+# Python & Cache
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+
+# Poids lourds du modèle (YOLO / CNN) & datasets
+*.pt
+*.pth
+dataset_mujoco/
+runs/
