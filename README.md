@@ -37,9 +37,9 @@ source install/setup.bash
 ros2 run ur10e_ik_control ik_node
 
 # Lancer le nœud de vision YOLO + HSV
-ros2 run ur10e_ik_control vision_node_yolo.py
+ros2 run ur10e_ik_control vision_node_yolo
 
 # Lancer la cinématique et le planificateur du robot
-ros2 run ur10e_ik_control high_level_planner.py
+ros2 run ur10e_ik_control planner
 
 
