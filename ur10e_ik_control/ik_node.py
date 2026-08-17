@@ -15,7 +15,7 @@ class LowLevelIK(Node):
         super().__init__('low_level_ik')
 
         # Charger le modèle MuJoCo
-        xml_path = "/home/localuser/mujoco_ur10e/mujoco_menagerie/universal_robots_ur10e/scene.xml"
+        xml_path = "/home/localuser/ros2_ws/src/ur10e_ik_control/mujoco_model/scene.xml"
         self.model = mujoco.MjModel.from_xml_path(xml_path)
         self.data = mujoco.MjData(self.model)
 
