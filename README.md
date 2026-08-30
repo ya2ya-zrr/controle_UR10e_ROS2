@@ -1,7 +1,7 @@
 cat << 'EOF' > README.md
 # UR10e Ball Tracking & Kinematics Control (YOLOv8 + HSV & ROS 2)
 
-Ce projet implémente un système complet de suivi de balle et de commande cinématique pour le bras robotisé **Universal Robots UR10e** sous **ROS 2**.
+Ce projet implémente un système complet de suivi de balle et de commande cinématique pour le bras robotisé **Universal Robots UR10e dans MuJoCo** sous **ROS 2**.
 
 ---
 
